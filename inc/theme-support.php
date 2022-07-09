@@ -69,8 +69,8 @@ function mailtrap($phpmailer) {
     $phpmailer->Host = 'smtp.gmail.com';
     $phpmailer->SMTPAuth = true;
     $phpmailer->Port = 465;
-    $phpmailer->Username = 'scar.remmie@gmail.com';
-    $phpmailer->Password = '29459507@kay';
+    $phpmailer->Username = '';
+    $phpmailer->Password = '';
   }
   
   add_action('phpmailer_init', 'mailtrap');
